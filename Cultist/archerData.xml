@@ -1,0 +1,171 @@
+<Archers>
+
+      <!-- KonspiracieTheorie Cultist -->
+
+  <Archer>
+    <Name0>CLOCKWORK</Name0>
+    <Name1>CULTIST</Name1>
+    <ColorA>8C7146</ColorA>
+    <ColorB>645032</ColorB>
+    <LightbarColor>645032</LightbarColor>
+    <Aimer>aimers/cultist</Aimer>
+    <SFX>5</SFX>
+    <StartNoHat>True</StartNoHat>
+    <Corpse>KonspiracieCultistCorpse</Corpse>
+    <VictoryMusic>Purple</VictoryMusic>
+    <Gender>Other</Gender>
+
+    <CustomSFX>
+      <Name>Cultist/CULTIST</Name>
+      <Fallback>PURPLE</Fallback>
+    </CustomSFX>
+
+    <!-- <EightPlayersNotJoinedPortraitTopOffset>2</EightPlayersNotJoinedPortraitTopOffset>
+    <EightPlayersJoinedPortraitTopOffset>4</EightPlayersJoinedPortraitTopOffset> -->
+
+    <Sprites>
+      <Body>KonspiracieCultist</Body>
+      <HeadNormal>KonspiracieCultistHead</HeadNormal>
+      <HeadNoHat>CultistNoHat</HeadNoHat>
+      <HeadCrown>CultistCrown</HeadCrown>
+      <Bow>CultistBow</Bow>
+    </Sprites>
+
+    <Hat>
+      <Material>Wood</Material>
+      <Normal>player/hat/cultist/normal</Normal>
+      <Blue>player/hat/cultist/normal</Blue>
+      <Red>player/hat/cultist/normal</Red>
+    </Hat>
+
+    <Portraits>
+      <NotJoined>portraits/notJoinedCultist</NotJoined>
+      <Joined>portraits/joinedCultist</Joined>
+      <Win>portraits/winCultist</Win>
+      <Lose>portraits/loseCultist</Lose>
+    </Portraits>
+
+    <Statue>
+      <Image>player/statues/cultist</Image>
+      <Glow>player/statues/cultistGlow</Glow>
+    </Statue>
+
+    <Gems>
+      <Menu>GemCultistMenu</Menu>
+      <Gameplay>GemCultist</Gameplay>
+    </Gems>
+  </Archer>
+
+
+  <AltArcher>
+   <Name0>CLOCKWORK</Name0>
+    <Name1>CRUSADER</Name1>
+    <ColorA>8C7146</ColorA>
+    <ColorB>645032</ColorB>
+    <LightbarColor>645032</LightbarColor>
+    <Aimer>aimers/cultist</Aimer>
+    <SFX>5</SFX>
+    <StartNoHat>False</StartNoHat>
+    <Corpse>KonspiracieCultistCorpseSec</Corpse>
+    <VictoryMusic>Purple</VictoryMusic>
+    <Gender>Other</Gender>
+
+    <CustomSFX>
+      <Name>Cultist/CULTIST</Name>
+      <Fallback>PURPLE</Fallback>
+    </CustomSFX>
+
+    <!-- <EightPlayersNotJoinedPortraitTopOffset>2</EightPlayersNotJoinedPortraitTopOffset>
+    <EightPlayersJoinedPortraitTopOffset>4</EightPlayersJoinedPortraitTopOffset> -->
+
+    <Sprites>
+      <Body>KonspiracieCultistSec</Body>
+      <HeadNormal>CultistSecHead</HeadNormal>
+      <HeadNoHat>CultistNoHatSec</HeadNoHat>
+      <HeadCrown>CultistCrownSec</HeadCrown>
+      <Bow>CultistBowSec</Bow>
+    </Sprites>
+
+    <Hat>
+      <Material>Wood</Material>
+      <Normal>player/hat/cultist/normal</Normal>
+      <Blue>player/hat/cultist/normal</Blue>
+      <Red>player/hat/cultist/normal</Red>
+    </Hat>
+
+    <Portraits>
+      <NotJoined>portraits/notJoinedSecCultist</NotJoined>
+      <Joined>portraits/joinedSecCultist</Joined>
+      <Win>portraits/winSecCultist</Win>
+      <Lose>portraits/loseSecCultist</Lose>
+    </Portraits>
+
+    <Statue>
+      <Image>player/statues/cultist</Image>
+      <Glow>player/statues/cultistGlow</Glow>
+    </Statue>
+
+    <Gems>
+      <Menu>GemCultistMenu</Menu>
+      <Gameplay>GemCultist</Gameplay>
+    </Gems>
+
+  </AltArcher>
+
+
+
+ <SecretArcher>
+    <Name0>VOIDWORK</Name0>
+    <Name1>CULTIST</Name1>
+    <ColorA>8C7146</ColorA>
+    <ColorB>645032</ColorB>
+    <LightbarColor>645032</LightbarColor>
+    <Aimer>aimers/voidcultist</Aimer>
+    <SFX>5</SFX>
+    <StartNoHat>True</StartNoHat>
+    <Corpse>KonspiracieCultistCorpseVoid</Corpse>
+    <VictoryMusic>Purple</VictoryMusic>
+    <Gender>Other</Gender>
+
+    <CustomSFX>
+      <Name>Cultist/CULTIST</Name>
+      <Fallback>PURPLE</Fallback>
+    </CustomSFX>
+
+    <!-- <EightPlayersNotJoinedPortraitTopOffset>2</EightPlayersNotJoinedPortraitTopOffset>
+    <EightPlayersJoinedPortraitTopOffset>4</EightPlayersJoinedPortraitTopOffset> -->
+
+    <Sprites>
+      <Body>KonspiracieCultistVoid</Body>
+      <HeadNormal>KonspiracieCultistHeadVoid</HeadNormal>
+      <HeadNoHat>CultistNoHatVoid</HeadNoHat>
+      <HeadCrown>CultistCrownVoid</HeadCrown>
+      <Bow>CultistBowVoid</Bow>
+    </Sprites>
+
+    <Hat>
+      <Material>Wood</Material>
+      <Normal>player/hat/cultist/normal</Normal>
+      <Blue>player/hat/cultist/normal</Blue>
+      <Red>player/hat/cultist/normal</Red>
+    </Hat>
+
+    <Portraits>
+      <NotJoined>portraits/notJoinedVoidCultist</NotJoined>
+      <Joined>portraits/joinedVoidCultist</Joined>
+      <Win>portraits/winVoidCultist</Win>
+      <Lose>portraits/loseVoidCultist</Lose>
+    </Portraits>
+
+    <Statue>
+      <Image>player/statues/cultist</Image>
+      <Glow>player/statues/cultistGlow</Glow>
+    </Statue>
+
+    <Gems>
+      <Menu>GemCultistMenuVoid</Menu>
+      <Gameplay>GemCultistVoid</Gameplay>
+    </Gems>
+  </SecretArcher>
+
+</Archers>

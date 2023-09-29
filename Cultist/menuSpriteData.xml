@@ -1,0 +1,29 @@
+<SpriteData>
+
+  <sprite_string id="GemCultistMenu">
+    <Texture>portraits/gemCultist</Texture>
+    <FrameWidth>20</FrameWidth>
+    <FrameHeight>20</FrameHeight>
+    <OriginX>10</OriginX>
+    <OriginY>10</OriginY>
+    <Y>60</Y>
+    <Animations>
+      <Anim id="off" frames="0"/>
+      <Anim id="on" delay=".06" loop="True" frames="1,2,3,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6,7,8,9,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+    </Animations>
+  </sprite_string>
+
+ <sprite_string id="GemCultistMenuVoid">
+    <Texture>portraits/gemCultistVoid</Texture>
+    <FrameWidth>20</FrameWidth>
+    <FrameHeight>20</FrameHeight>
+    <OriginX>10</OriginX>
+    <OriginY>10</OriginY>
+    <Y>60</Y>
+    <Animations>
+      <Anim id="off" frames="0"/>
+      <Anim id="on" delay=".06" loop="True" frames="1,2,3,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6,7,8,9,10,11,12,13,14,15,16,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+    </Animations>
+  </sprite_string>
+  
+</SpriteData>

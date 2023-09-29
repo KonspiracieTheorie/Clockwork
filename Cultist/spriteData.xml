@@ -1,0 +1,467 @@
+<SpriteData>
+
+    <!-- Corpse Sprite Data -->
+
+  <sprite_string id="KonspiracieCultistCorpse">
+    <Texture>corpses/cultist/normal</Texture>
+    <BlueTeam>corpses/cultist/blueTeam</BlueTeam>
+    <RedTeam>corpses/cultist/redTeam</RedTeam>
+    <Flash>corpses/cultist/flash</Flash>
+    <FrameWidth>12</FrameWidth>
+    <FrameHeight>20</FrameHeight>
+    <Animations>
+      <Anim id="ground" frames="0"/>
+      <Anim id="fall" frames="1"/>
+      <Anim id="pinned" frames="2"/>
+      <Anim id="slouched" frames="3"/>
+      <Anim id="flying" frames="4"/>
+      <Anim id="ledge" frames="5"/>
+    </Animations>
+  </sprite_string>
+
+ <sprite_string id="KonspiracieCultistCorpseSec">
+    <Texture>corpses/cultist/normal</Texture>
+    <BlueTeam>corpses/cultist/blueTeam</BlueTeam>
+    <RedTeam>corpses/cultist/redTeam</RedTeam>
+    <Flash>corpses/cultist/flash</Flash>
+    <FrameWidth>12</FrameWidth>
+    <FrameHeight>20</FrameHeight>
+    <Animations>
+      <Anim id="ground" frames="0"/>
+      <Anim id="fall" frames="1"/>
+      <Anim id="pinned" frames="2"/>
+      <Anim id="slouched" frames="3"/>
+      <Anim id="flying" frames="4"/>
+      <Anim id="ledge" frames="5"/>
+    </Animations>
+  </sprite_string>
+
+ <sprite_string id="KonspiracieCultistCorpseVoid">
+    <Texture>corpses/cultist/void</Texture>
+    <BlueTeam>corpses/cultist/void</BlueTeam>
+    <RedTeam>corpses/cultist/void</RedTeam>
+    <Flash>corpses/cultist/flash</Flash>
+    <FrameWidth>12</FrameWidth>
+    <FrameHeight>20</FrameHeight>
+    <Animations>
+      <Anim id="ground" frames="0"/>
+      <Anim id="fall" frames="1"/>
+      <Anim id="pinned" frames="2"/>
+      <Anim id="slouched" frames="3"/>
+      <Anim id="flying" frames="4"/>
+      <Anim id="ledge" frames="5"/>
+    </Animations>
+  </sprite_string>
+
+    <!-- Player Clockwork Cultist -->
+
+  <sprite_int id="GemCultist">
+    <Texture>pickups/cultistGem</Texture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>5</OriginX>
+    <OriginY>5</OriginY>
+    <Animations>
+      <Anim id="0" delay=".1" loop="True" frames="0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0"/>
+    </Animations>
+  </sprite_int>
+
+  <sprite_string id="KonspiracieCultist">
+    <Texture>player/Cultist</Texture>
+    <RedTexture>player/Cultist_red</RedTexture>
+    <BlueTexture>player/Cultist_blue</BlueTexture>
+    <FrameWidth>12</FrameWidth>
+    <FrameHeight>20</FrameHeight>
+    <OriginX>7</OriginX>
+    <OriginY>20</OriginY>
+    <X>0</X>
+    <Y>8</Y>
+    <Animations>
+      <Anim id="stand" frames="0"/>
+      <Anim id="run" delay=".08" frames="1,2,3,2,1"/>
+      <Anim id="jump" frames="5, 6" delay=".15" loop="False"/>
+      <Anim id="fall" frames="9" loop="False"/>
+      <Anim id="glide" frames="9" loop="False"/>
+      <Anim id="ledge" frames="4"/>
+      <Anim id="dodge" frames="7"/>
+      <Anim id="duck" frames="8"/>
+      <Anim id="slide_nohat" frames="10"/>
+      <Anim id="slide_normal" frames="10"/>
+      <Anim id="slide_crown" frames="10"/>
+    </Animations>
+    <HeadXOrigins>6,6,6,6,7,6,6,6,6,6,6</HeadXOrigins>
+    <HeadYOrigins>19,20,19,18,19,19,19,17,15,19,14</HeadYOrigins>
+  </sprite_string>
+
+  <sprite_string id="KonspiracieCultistHead">
+    <Texture>player/head/CultistHead</Texture>
+    <RedTexture>player/head/CultistHead</RedTexture>
+    <BlueTexture>player/head/CultistHead</BlueTexture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>6</OriginX>
+    <OriginY>0</OriginY>
+    <X>0</X>
+    <Y>7</Y>
+    <Animations>
+      <Anim id="idle" frames="0"/>
+      <Anim id="lookUp" frames="1"/>
+      <Anim id="lookDown" frames="2"/>
+      <Anim id="lookBack" frames="3"/>
+      <Anim id="idleFall" frames="0"/>
+      <Anim id="lookUpFall" frames="1"/>
+      <Anim id="lookDownFall" frames="2"/>
+      <Anim id="lookBackFall" frames="3"/>
+      <Anim id="idleJump" frames="0"/>
+      <Anim id="lookUpJump" frames="1"/>
+      <Anim id="lookDownJump" frames="2"/>
+      <Anim id="lookBackJump" frames="3"/>
+      <Anim id="duck" frames="4"/>
+    </Animations>
+  </sprite_string>
+
+  <sprite_string id="CultistNoHat">
+    <Texture>player/head/CultistHead</Texture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>6</OriginX>
+    <OriginY>0</OriginY>
+    <X>0</X>
+    <Y>7</Y>
+    <Animations>
+      <Anim id="idle" frames="0"/>
+      <Anim id="lookUp" frames="1"/>
+      <Anim id="lookDown" frames="2"/>
+      <Anim id="lookBack" frames="3"/>
+      <Anim id="idleFall" frames="0"/>
+      <Anim id="lookUpFall" frames="1"/>
+      <Anim id="lookDownFall" frames="2"/>
+      <Anim id="lookBackFall" frames="3"/>
+      <Anim id="idleJump" frames="0"/>
+      <Anim id="lookUpJump" frames="1"/>
+      <Anim id="lookDownJump" frames="2"/>
+      <Anim id="lookBackJump" frames="3"/>
+      <Anim id="duck" frames="4"/>
+    </Animations>
+  </sprite_string>
+
+  <sprite_string id="CultistCrown">
+    <Texture>player/head/CultistCrown</Texture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>6</OriginX>
+    <OriginY>0</OriginY>
+    <X>0</X>
+    <Y>7</Y>
+    <Animations>
+      <Anim id="idle" frames="0"/>
+      <Anim id="lookUp" frames="1"/>
+      <Anim id="lookDown" frames="2"/>
+      <Anim id="lookBack" frames="3"/>
+      <Anim id="idleFall" frames="0"/>
+      <Anim id="lookUpFall" frames="1"/>
+      <Anim id="lookDownFall" frames="2"/>
+      <Anim id="lookBackFall" frames="3"/>
+      <Anim id="idleJump" frames="0"/>
+      <Anim id="lookUpJump" frames="1"/>
+      <Anim id="lookDownJump" frames="2"/>
+      <Anim id="lookBackJump" frames="3"/>
+      <Anim id="duck" frames="4"/>
+    </Animations>
+  </sprite_string>
+
+  <sprite_string id="CultistBow">
+    <Texture>player/CultistBow</Texture>
+    <RedTexture>player/CultistBow</RedTexture>
+    <BlueTexture>player/CultistBow</BlueTexture>
+    <FrameWidth>14</FrameWidth>
+    <FrameHeight>12</FrameHeight>
+    <OriginX>2</OriginX>
+    <OriginY>7</OriginY>
+    <X>0</X>
+    <Y>-2</Y>
+    <DownY>1</DownY>
+    <Animations>
+      <Anim id="idle" frames="3"/>
+      <Anim id="drawn" loop="False" delay="0.03" frames="3,0,1,2"/>
+      <Anim id="drawnEmpty" loop="False" delay="0.03" frames="3,0,1,2"/>
+    </Animations>
+  </sprite_string>
+
+
+
+    <!-- Player Clockwork Crusader -->
+
+  <sprite_int id="GemCultistSec">
+    <Texture>pickups/cultistGem</Texture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>5</OriginX>
+    <OriginY>5</OriginY>
+    <Animations>
+      <Anim id="0" delay=".1" loop="True" frames="0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0"/>
+    </Animations>
+  </sprite_int>
+
+  <sprite_string id="KonspiracieCultistSec">
+    <Texture>player/Cultist</Texture>
+    <RedTexture>player/Cultist_red</RedTexture>
+    <BlueTexture>player/Cultist_blue</BlueTexture>
+    <FrameWidth>12</FrameWidth>
+    <FrameHeight>20</FrameHeight>
+    <OriginX>7</OriginX>
+    <OriginY>20</OriginY>
+    <X>0</X>
+    <Y>8</Y>
+    <Animations>
+      <Anim id="stand" frames="0"/>
+      <Anim id="run" delay=".08" frames="1,2,3,2,1"/>
+      <Anim id="jump" frames="5, 6" delay=".15" loop="False"/>
+      <Anim id="fall" frames="9" loop="False"/>
+      <Anim id="glide" frames="9" loop="False"/>
+      <Anim id="ledge" frames="4"/>
+      <Anim id="dodge" frames="7"/>
+      <Anim id="duck" frames="8"/>
+      <Anim id="slide_nohat" frames="10"/>
+      <Anim id="slide_normal" frames="10"/>
+      <Anim id="slide_crown" frames="10"/>
+    </Animations>
+    <HeadXOrigins>6,6,6,6,7,6,6,6,6,6,6</HeadXOrigins>
+    <HeadYOrigins>19,20,19,18,19,19,19,17,15,19,14</HeadYOrigins>
+  </sprite_string>
+
+  <sprite_string id="CultistSecHead">
+    <Texture>player/head/CultistSecHead</Texture>
+    <RedTexture>player/head/CultistSecHead</RedTexture>
+    <BlueTexture>player/head/CultistSecHead</BlueTexture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>6</OriginX>
+    <OriginY>0</OriginY>
+    <X>0</X>
+    <Y>7</Y>
+    <Animations>
+      <Anim id="idle" frames="0"/>
+      <Anim id="lookUp" frames="1"/>
+      <Anim id="lookDown" frames="2"/>
+      <Anim id="lookBack" frames="3"/>
+      <Anim id="idleFall" frames="0"/>
+      <Anim id="lookUpFall" frames="1"/>
+      <Anim id="lookDownFall" frames="2"/>
+      <Anim id="lookBackFall" frames="3"/>
+      <Anim id="idleJump" frames="0"/>
+      <Anim id="lookUpJump" frames="1"/>
+      <Anim id="lookDownJump" frames="2"/>
+      <Anim id="lookBackJump" frames="3"/>
+      <Anim id="duck" frames="4"/>
+    </Animations>
+  </sprite_string>
+
+  <sprite_string id="CultistNoHatSec">
+    <Texture>player/head/CultistHead</Texture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>6</OriginX>
+    <OriginY>0</OriginY>
+    <X>0</X>
+    <Y>7</Y>
+    <Animations>
+      <Anim id="idle" frames="0"/>
+      <Anim id="lookUp" frames="1"/>
+      <Anim id="lookDown" frames="2"/>
+      <Anim id="lookBack" frames="3"/>
+      <Anim id="idleFall" frames="0"/>
+      <Anim id="lookUpFall" frames="1"/>
+      <Anim id="lookDownFall" frames="2"/>
+      <Anim id="lookBackFall" frames="3"/>
+      <Anim id="idleJump" frames="0"/>
+      <Anim id="lookUpJump" frames="1"/>
+      <Anim id="lookDownJump" frames="2"/>
+      <Anim id="lookBackJump" frames="3"/>
+      <Anim id="duck" frames="4"/>
+    </Animations>
+  </sprite_string>
+
+  <sprite_string id="CultistCrownSec">
+    <Texture>player/head/CultistCrown</Texture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>6</OriginX>
+    <OriginY>0</OriginY>
+    <X>0</X>
+    <Y>7</Y>
+    <Animations>
+      <Anim id="idle" frames="0"/>
+      <Anim id="lookUp" frames="1"/>
+      <Anim id="lookDown" frames="2"/>
+      <Anim id="lookBack" frames="3"/>
+      <Anim id="idleFall" frames="0"/>
+      <Anim id="lookUpFall" frames="1"/>
+      <Anim id="lookDownFall" frames="2"/>
+      <Anim id="lookBackFall" frames="3"/>
+      <Anim id="idleJump" frames="0"/>
+      <Anim id="lookUpJump" frames="1"/>
+      <Anim id="lookDownJump" frames="2"/>
+      <Anim id="lookBackJump" frames="3"/>
+      <Anim id="duck" frames="4"/>
+    </Animations>
+  </sprite_string>
+
+  <sprite_string id="CultistBowSec">
+    <Texture>player/CultistBow</Texture>
+    <RedTexture>player/CultistBow</RedTexture>
+    <BlueTexture>player/CultistBow</BlueTexture>
+    <FrameWidth>14</FrameWidth>
+    <FrameHeight>12</FrameHeight>
+    <OriginX>2</OriginX>
+    <OriginY>7</OriginY>
+    <X>0</X>
+    <Y>-2</Y>
+    <DownY>1</DownY>
+    <Animations>
+      <Anim id="idle" frames="3"/>
+      <Anim id="drawn" loop="False" delay="0.03" frames="3,0,1,2"/>
+      <Anim id="drawnEmpty" loop="False" delay="0.03" frames="3,0,1,2"/>
+    </Animations>
+  </sprite_string>
+
+
+
+    <!-- Player Voidwork Cultist -->
+
+  <sprite_int id="GemCultistVoid">
+    <Texture>pickups/cultistGemVoid</Texture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>5</OriginX>
+    <OriginY>5</OriginY>
+    <Animations>
+      <Anim id="0" delay=".1" loop="True" frames="0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,3,4,5,6,7,8,9,10,11,0,0,0,0,0,0,0,0,0,0"/>
+    </Animations>
+  </sprite_int>
+
+  <sprite_string id="KonspiracieCultistVoid">
+    <Texture>player/Cultist_void</Texture>
+    <RedTexture>player/Cultist_void</RedTexture>
+    <BlueTexture>player/Cultist_void</BlueTexture>
+    <FrameWidth>12</FrameWidth>
+    <FrameHeight>20</FrameHeight>
+    <OriginX>7</OriginX>
+    <OriginY>20</OriginY>
+    <X>0</X>
+    <Y>8</Y>
+    <Animations>
+      <Anim id="stand" frames="0"/>
+      <Anim id="run" delay=".08" frames="1,2,3,2,1"/>
+      <Anim id="jump" frames="5, 6" delay=".15" loop="False"/>
+      <Anim id="fall" frames="9" loop="False"/>
+      <Anim id="glide" frames="9" loop="False"/>
+      <Anim id="ledge" frames="4"/>
+      <Anim id="dodge" frames="7"/>
+      <Anim id="duck" frames="8"/>
+      <Anim id="slide_nohat" frames="10"/>
+      <Anim id="slide_normal" frames="10"/>
+      <Anim id="slide_crown" frames="10"/>
+    </Animations>
+    <HeadXOrigins>6,6,6,6,7,6,6,6,6,6,6</HeadXOrigins>
+    <HeadYOrigins>19,20,19,18,19,19,19,17,15,19,14</HeadYOrigins>
+  </sprite_string>
+
+  <sprite_string id="KonspiracieCultistHeadVoid">
+    <Texture>player/head/CultistHead</Texture>
+    <RedTexture>player/head/CultistHead</RedTexture>
+    <BlueTexture>player/head/CultistHead</BlueTexture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>6</OriginX>
+    <OriginY>0</OriginY>
+    <X>0</X>
+    <Y>7</Y>
+    <Animations>
+      <Anim id="idle" frames="0"/>
+      <Anim id="lookUp" frames="1"/>
+      <Anim id="lookDown" frames="2"/>
+      <Anim id="lookBack" frames="3"/>
+      <Anim id="idleFall" frames="0"/>
+      <Anim id="lookUpFall" frames="1"/>
+      <Anim id="lookDownFall" frames="2"/>
+      <Anim id="lookBackFall" frames="3"/>
+      <Anim id="idleJump" frames="0"/>
+      <Anim id="lookUpJump" frames="1"/>
+      <Anim id="lookDownJump" frames="2"/>
+      <Anim id="lookBackJump" frames="3"/>
+      <Anim id="duck" frames="4"/>
+    </Animations>
+  </sprite_string>
+
+  <sprite_string id="CultistNoHatVoid">
+    <Texture>player/head/CultistHead</Texture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>6</OriginX>
+    <OriginY>0</OriginY>
+    <X>0</X>
+    <Y>7</Y>
+    <Animations>
+      <Anim id="idle" frames="0"/>
+      <Anim id="lookUp" frames="1"/>
+      <Anim id="lookDown" frames="2"/>
+      <Anim id="lookBack" frames="3"/>
+      <Anim id="idleFall" frames="0"/>
+      <Anim id="lookUpFall" frames="1"/>
+      <Anim id="lookDownFall" frames="2"/>
+      <Anim id="lookBackFall" frames="3"/>
+      <Anim id="idleJump" frames="0"/>
+      <Anim id="lookUpJump" frames="1"/>
+      <Anim id="lookDownJump" frames="2"/>
+      <Anim id="lookBackJump" frames="3"/>
+      <Anim id="duck" frames="4"/>
+    </Animations>
+  </sprite_string>
+
+  <sprite_string id="CultistCrownVoid">
+    <Texture>player/head/CultistCrown</Texture>
+    <FrameWidth>10</FrameWidth>
+    <FrameHeight>10</FrameHeight>
+    <OriginX>6</OriginX>
+    <OriginY>0</OriginY>
+    <X>0</X>
+    <Y>7</Y>
+    <Animations>
+      <Anim id="idle" frames="0"/>
+      <Anim id="lookUp" frames="1"/>
+      <Anim id="lookDown" frames="2"/>
+      <Anim id="lookBack" frames="3"/>
+      <Anim id="idleFall" frames="0"/>
+      <Anim id="lookUpFall" frames="1"/>
+      <Anim id="lookDownFall" frames="2"/>
+      <Anim id="lookBackFall" frames="3"/>
+      <Anim id="idleJump" frames="0"/>
+      <Anim id="lookUpJump" frames="1"/>
+      <Anim id="lookDownJump" frames="2"/>
+      <Anim id="lookBackJump" frames="3"/>
+      <Anim id="duck" frames="4"/>
+    </Animations>
+  </sprite_string>
+
+  <sprite_string id="CultistBowVoid">
+    <Texture>player/CultistBowVoid</Texture>
+    <RedTexture>player/CultistBowVoid</RedTexture>
+    <BlueTexture>player/CultistBowVoid</BlueTexture>
+    <FrameWidth>14</FrameWidth>
+    <FrameHeight>12</FrameHeight>
+    <OriginX>2</OriginX>
+    <OriginY>7</OriginY>
+    <X>0</X>
+    <Y>-2</Y>
+    <DownY>1</DownY>
+    <Animations>
+      <Anim id="idle" frames="3"/>
+      <Anim id="drawn" loop="False" delay="0.03" frames="3,0,1,2"/>
+      <Anim id="drawnEmpty" loop="False" delay="0.03" frames="3,0,1,2"/>
+    </Animations>
+  </sprite_string>
+
+
+
+ </SpriteData>

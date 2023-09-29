@@ -1,0 +1,25 @@
+<TextureAtlas imagePath="cultist_atlas.png">
+        <!-- Clockwork Cultist -->
+    <SubTexture name="aimers/cultist" x="116" y="64" width="30" height="10"/>
+    <SubTexture name="aimers/voidcultist" x="116" y="74" width="30" height="10"/>
+    <SubTexture name="corpses/cultist/normal" x="1" y="1" width="72" height="20"/>
+    <SubTexture name="corpses/cultist/blueTeam" x="1" y="22" width="72" height="20"/>
+    <SubTexture name="corpses/cultist/redTeam" x="1" y="43" width="72" height="20"/>
+    <SubTexture name="corpses/cultist/flash" x="1" y="64" width="72" height="20"/>
+    <SubTexture name="corpses/cultist/void" x="1" y="101" width="72" height="20"/>
+    <SubTexture name="pickups/cultistGem" x="207" y="50" width="10" height="30"/>
+    <SubTexture name="pickups/cultistGemVoid" x="227" y="50" width="10" height="120"/>
+    <SubTexture name="player/Cultist" x="74" y="1" width="132" height="20"/>
+    <SubTexture name="player/Cultist_blue" x="74" y="22" width="132" height="20"/>
+    <SubTexture name="player/Cultist_red" x="74" y="43" width="132" height="20"/>
+    <SubTexture name="player/Cultist_void" x="74" y="101" width="132" height="20"/>
+    <SubTexture name="player/CultistBow" x="207" y="1" width="14" height="48"/>
+    <SubTexture name="player/CultistBowVoid" x="227" y="1" width="14" height="48"/>
+    <SubTexture name="player/hat/cultist/normal" x="199" y="64" width="5" height="2"/>
+    <SubTexture name="player/head/CultistHead" x="147" y="64" width="50" height="10"/>
+    <SubTexture name="player/head/CultistSecHead" x="147" y="84" width="50" height="10"/>
+    <SubTexture name="player/head/CultistCrown" x="147" y="75" width="50" height="10"/>
+    <SubTexture name="player/head/CultistNoHat" x="116" y="75" width="30" height="10"/>
+    <SubTexture name="player/statues/cultist" x="74" y="64" width="20" height="20"/>
+    <SubTexture name="player/statues/cultistGlow" x="95" y="64" width="20" height="20"/>
+</TextureAtlas>
